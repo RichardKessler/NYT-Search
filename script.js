@@ -13,7 +13,7 @@ function getArticle() {
     articleHead.attr("href", response.response.docs[0].web_url);
     articleHead.text(response.response.docs[0].abstract);
     articleDiv.append(articleHead);
-    $("#articles").append(articleDiv);
+    $(".results").append(articleDiv);
   });
 }
 
