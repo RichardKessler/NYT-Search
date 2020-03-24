@@ -1,4 +1,10 @@
-var input = "corona virus";
+// <<<<<<< HEAD
+// NYT search article
+
+// api keyt for search
+// 
+// =======
+var input = "coronavirus";
 var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + input + "&api-key=HWlDcliekRAsANCpbWLTGjfohdoE7lpJ"
 
 
@@ -16,3 +22,28 @@ function getArticle() {
 }
 
 getArticle();
+// >>>>>>> master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Get our user input and append to the Query URL
+console.log($("#userSearch"));
