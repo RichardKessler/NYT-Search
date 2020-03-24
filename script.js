@@ -1,12 +1,24 @@
-var userSearch = $(".user-search");
-var userStartDate = $("user-start-date")
-var userStartDate = $("user-end-date")
+
 
 var input = "corona virus";
-var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + input + "&api-key=HWlDcliekRAsANCpbWLTGjfohdoE7lpJ"
+// <<<<<<< HEAD
+// NYT search article
+
+// api keyt for search
+// 
+// =======
 
 
-function getArticle() {
+$(".Search").click(function(){
+  var userSearch = $(".userSearch").val();
+  var articleNum = $(".inputGroupSelect01");
+  var userStartDate = $(".userSearchDate");
+  var userStartDate = $(".userEndDate");
+
+  
+  var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + userSearch + "&api-key=HWlDcliekRAsANCpbWLTGjfohdoE7lpJ"
+
+
   $.ajax({
     url: queryURL,
     method: "GET"
@@ -20,6 +32,29 @@ function getArticle() {
       $(".results").append(articleHead);
     }
   });
-}
+});
+// >>>>>>> master
 
-getArticle();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Get our user input and append to the Query URL
+console.log($("#userSearch"));
