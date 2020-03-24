@@ -34,6 +34,17 @@ getArticle();
 
 
 
+$(".custom-select").click(function () {
+  articleSelect = this.value;
+  console.log (this.value);
+
+});
+
+
+
+
+
+
 
 
 
