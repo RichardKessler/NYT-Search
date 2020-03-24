@@ -1,8 +1,4 @@
-// NYT Times Search
+// NYT search article
 
-
-console.log ("Test");
-
-
-
-console.log ($("#display-4"))
+// api keyt for search
+// 
