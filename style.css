@@ -1,1 +1,33 @@
-body {}
+body {
+    font-size: 25px;
+}
+
+.jumbotron {
+    background-color: rgb(28, 109, 175);
+    text-align: center;
+}
+
+.input-group-text {
+    background-color: mediumblue;
+    color: snow;
+}
+
+.form-control {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Search {
+    padding: 10px;
+    border: 3px;
+    border-radius: 5px;
+    background-color: mediumblue;
+    color: snow;
+}
+
+.row {
+    text-align: center;
+}
+
+.input-group {
+    text-align: center;
+}
